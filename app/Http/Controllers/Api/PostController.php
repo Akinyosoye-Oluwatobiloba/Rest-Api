@@ -21,7 +21,7 @@ class PostController extends Controller
             'status'=> true,
             'posts' => $post
         ]);
-    } 
+    }
 
     /**
      * Show the form for creating a new resource.
@@ -58,7 +58,7 @@ class PostController extends Controller
      */
     public function show(Post $post)
     {
-        //
+        
     }
 
     /**
